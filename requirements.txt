@@ -1,0 +1,19 @@
+# Django Modules
+django
+django-cors-headers
+django-debug-toolbar
+django-environ
+django-model-utils
+
+# Django Rest Modules
+djangorestframework
+django-rest-auth
+
+# Other Modules
+gunicorn
+requests
+psycopg2
+pyyaml
+uritemplate
+validators
+xlsxwriter
