@@ -15,6 +15,11 @@ class Account(models.Account):
     objects = AccountManager()
 
     class Meta:
+        ordering = [
+            'first_name',
+            'last_name'
+        ]
+
         proxy = True
 
         verbose_name = 'Account'
@@ -32,6 +37,10 @@ class Schedule(models.Schedule):
     objects = ScheduleManager()
 
     class Meta:
+        ordering = [
+            'name'
+        ]
+
         proxy = True
 
         verbose_name = 'Schedule'

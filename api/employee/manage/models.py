@@ -14,6 +14,11 @@ class Account(models.Account):
     objects = AccountManager()
 
     class Meta:
+        ordering = [
+            'first_name',
+            'last_name'
+        ]
+
         proxy = True
 
         verbose_name = 'Manage Account'
