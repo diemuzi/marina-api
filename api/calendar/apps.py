@@ -4,6 +4,6 @@ from django.apps import AppConfig
 class Config(AppConfig):
     label = 'calendar'
 
-    name = label
+    name = 'calendar'
 
     verbose_name = 'Calendar'

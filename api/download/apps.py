@@ -4,6 +4,6 @@ from django.apps import AppConfig
 class Config(AppConfig):
     label = 'download'
 
-    name = label
+    name = 'download'
 
     verbose_name = 'Download'
